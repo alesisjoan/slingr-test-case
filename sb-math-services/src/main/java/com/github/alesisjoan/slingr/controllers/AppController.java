@@ -14,7 +14,7 @@ public class AppController {
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "OK"),
             @ApiResponse(code = 500, message = "Internal error") })
-    @RequestMapping(value = "/app/health",
+    @RequestMapping(value = "/health",
             produces = { "application/json" },
             method = RequestMethod.GET)
     ResponseEntity<String> appHealthGet() {
@@ -26,7 +26,7 @@ public class AppController {
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "OK"),
             @ApiResponse(code = 500, message = "Internal error") })
-    @RequestMapping(value = "/app/last",
+    @RequestMapping(value = "/last",
             produces = { "application/json" },
             method = RequestMethod.GET)
     ResponseEntity<String> appLastGet() {
@@ -38,7 +38,7 @@ public class AppController {
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "OK"),
             @ApiResponse(code = 500, message = "Internal error") })
-    @RequestMapping(value = "/app/top",
+    @RequestMapping(value = "/top",
             produces = { "application/json" },
             method = RequestMethod.GET)
     ResponseEntity<String> appTopGet(){

@@ -1,8 +1,11 @@
 package com.github.alesisjoan.slingr.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.github.alesisjoan.slingr.util.MathExpressionConstraint;
 import org.springframework.validation.annotation.Validated;
-
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.PositiveOrZero;
 import java.util.Objects;
 
 /**
@@ -10,9 +13,13 @@ import java.util.Objects;
  */
 @Validated
 public class MathExpression {
+  
+  @NotBlank
+  @MathExpressionConstraint
   @JsonProperty("expression")
   private String expression = null;
 
+  @PositiveOrZero
   @JsonProperty("digits")
   private Integer digits = null;
 

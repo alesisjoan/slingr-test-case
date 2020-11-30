@@ -22,7 +22,7 @@ public class CalculatorController {
     private static final Logger log = LoggerFactory
             .getLogger(CalculatorController.class);
     
-    private static final Integer DEFAULT_DIGITS = 2; // TODO extract from properties
+    private static final Integer DEFAULT_DIGITS = 0; // TODO extract from properties
     
     @Autowired
     Calculator calculator;
@@ -32,10 +32,7 @@ public class CalculatorController {
             @ApiResponse(code = 200, message = "OK"),
             @ApiResponse(code = 400, message = "Invalid input"),
             @ApiResponse(code = 500, message = "Internal error / Math exception") })
-    @RequestMapping(value = "/expressions",
-            produces = { "application/json" },
-            consumes = { "application/json" },
-            method = RequestMethod.GET)
+    @RequestMapping(value = "/expressions", method = RequestMethod.GET)
     ResponseEntity<String> expressionsGet(@NotNull @ApiParam(value = "Expression to be evaluated", required = true) 
                                         @Valid @RequestParam(value = "expression", required = true) String expression,
                                         @ApiParam(value = "number of significant digits in formatted output. It is optional.")
