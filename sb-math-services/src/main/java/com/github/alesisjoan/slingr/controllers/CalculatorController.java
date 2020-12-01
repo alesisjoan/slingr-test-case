@@ -2,6 +2,7 @@ package com.github.alesisjoan.slingr.controllers;
 
 import com.github.alesisjoan.slingr.config.BadRequest;
 import com.github.alesisjoan.slingr.domain.MathExpression;
+import com.github.alesisjoan.slingr.services.AppService;
 import com.github.alesisjoan.slingr.services.Calculator;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -22,10 +23,11 @@ public class CalculatorController {
     private static final Logger log = LoggerFactory
             .getLogger(CalculatorController.class);
     
-    private static final Integer DEFAULT_DIGITS = 0; // TODO extract from properties
+    private static final Integer DEFAULT_DIGITS = 0;
     
     @Autowired
     Calculator calculator;
+
 
     @ApiOperation(value = "calculate expression", nickname = "expressionsGet", notes = "", tags={ "expressions", })
     @ApiResponses(value = {

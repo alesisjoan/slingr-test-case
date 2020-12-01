@@ -1,5 +1,6 @@
 package com.github.alesisjoan.slingr.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.github.alesisjoan.slingr.util.MathExpressionConstraint;
 import org.springframework.validation.annotation.Validated;
@@ -23,9 +24,9 @@ public class MathExpression {
   @JsonProperty("digits")
   private Integer digits = null;
 
-  public MathExpression expression(String expression) {
+  public MathExpression(String expression, Integer digits) {
     this.expression = expression;
-    return this;
+    this.digits = digits;
   }
 
 
