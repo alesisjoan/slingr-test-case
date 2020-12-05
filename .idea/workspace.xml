@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3038d830-d38a-4201-9abc-f762e5808736" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/CalculatorController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/sb-math-services">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/sb-rest-calculator">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/sb-math-services">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sb-math-services" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kwQNFjrM4ac5ENI8lUQCHSuTOW" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1634062" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sb-rest-calculator/src/main/java/com.github.alesisjoan/slingr" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.alesisjoan.slingr.services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.alesisjoan.slingr.domain" />
+      <recent name="com.github.alesisjoan.slingr.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sb-math-services" />
+      <recent name="$PROJECT_DIR$/sb-rest-calculator" />
+      <recent name="$PROJECT_DIR$/sb-rest-calculator/src/main/java/com/github/alesisjoan/slingr/config" />
+      <recent name="$PROJECT_DIR$/sb-rest-calculator/src/main/java/com.github.alesisjoan" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.sb-math-services">
+    <configuration name="SpringWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.alesisjoan.slingr.SpringWebApplication" />
+      <module name="sb-rest-calculator.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.alesisjoan.slingr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sb-math-services" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="clean build --info" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sb-math-services" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="SERVER_PORT" value="8090" />
+          </map>
+        </option>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sb-math-services" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="clean bootRun --info " />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringWebApplication" />
+      <item itemvalue="Gradle.sb-math-services" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringWebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3038d830-d38a-4201-9abc-f762e5808736" name="Default Changelist" comment="" />
+      <created>1606609131734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606609131734</updated>
+    </task>
+    <task id="LOCAL-00001" summary="bootstrapped spring boot rest application as swagger file, closes #4">
+      <created>1606691386632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606691386632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implemented exp4j, closes #6">
+      <created>1606700151993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606700151993</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implemented cache service, app service, math result for getting last 10 expressions. closes #8">
+      <created>1606784566973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606784566973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bootstrapped spring boot rest application as swagger file, closes #4" />
+    <MESSAGE value="implemented exp4j, closes #6" />
+    <MESSAGE value="implemented cache service, app service, math result for getting last 10 expressions. closes #8" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented cache service, app service, math result for getting last 10 expressions. closes #8" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="97" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1606692272347">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="97" y="27" width="1024" height="741" key="#Project_Structure/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606692272347" />
+    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607036835942">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607036835942" />
+    <state x="2599" y="111" width="583" height="593" key="#com.intellij.ide.util.MemberChooser" timestamp="1606783660800">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="516" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606699474090" />
+    <state x="2599" y="111" width="583" height="593" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606783660800" />
+    <state x="2061" y="143" width="560" height="819" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606783185301">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2061" y="143" width="560" height="819" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606783185301" />
+    <state x="2084" y="301" width="524" height="503" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1606782244181">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2084" y="301" width="524" height="503" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606782244181" />
+    <state x="427" y="312" width="877" height="513" key="#xdebugger.evaluate" timestamp="1606784006046">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="208" y="179" width="1022" height="513" key="#xdebugger.evaluate/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606693961642" />
+    <state x="427" y="312" width="877" height="513" key="#xdebugger.evaluate/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606784006046" />
+    <state width="689" height="526" key="DebuggerActiveHint" timestamp="1606783963925">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="689" height="526" key="DebuggerActiveHint/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606783963925" />
+    <state x="198" y="240" width="416" height="340" key="FileChooserDialogImpl" timestamp="1607033498935">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="198" y="240" width="416" height="340" key="FileChooserDialogImpl/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607033498935" />
+    <state x="2134" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606612701461" />
+    <state width="1823" height="401" key="GridCell.Tab.0.bottom" timestamp="1607129047099">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682417" />
+    <state width="1823" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129047099" />
+    <state width="1823" height="401" key="GridCell.Tab.0.center" timestamp="1607129047099">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
+    <state width="1823" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129047099" />
+    <state width="1823" height="401" key="GridCell.Tab.0.left" timestamp="1607129047099">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
+    <state width="1823" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129047099" />
+    <state width="1823" height="401" key="GridCell.Tab.0.right" timestamp="1607129047099">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
+    <state width="1823" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129047099" />
+    <state width="1823" height="401" key="GridCell.Tab.1.bottom" timestamp="1607129046978">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
+    <state width="1823" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129046978" />
+    <state width="1823" height="401" key="GridCell.Tab.1.center" timestamp="1607129046978">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
+    <state width="1823" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129046978" />
+    <state width="1823" height="401" key="GridCell.Tab.1.left" timestamp="1607129046978">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
+    <state width="1823" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129046978" />
+    <state width="1823" height="401" key="GridCell.Tab.1.right" timestamp="1607129046978">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1269" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
+    <state width="1823" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129046978" />
+    <state x="1019" y="164" width="901" height="527" key="IDE.errors.dialog" timestamp="1606614164796">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="1019" y="164" width="901" height="527" key="IDE.errors.dialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606614164796" />
+    <state x="191" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1606692404210">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="191" y="27" width="1024" height="741" key="SettingsEditor/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606692404210" />
+    <state x="2117" y="133" width="800" height="557" key="Vcs.Push.Dialog.v2" timestamp="1606784568504">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="303" y="118" width="800" height="557" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606700154219" />
+    <state x="2117" y="133" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606784568504" />
+    <state width="960" height="541" key="XDebugger.FullValuePopup" timestamp="1606784255375">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="657" height="371" key="XDebugger.FullValuePopup/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606699877029" />
+    <state width="960" height="541" key="XDebugger.FullValuePopup/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606784255375" />
+    <state x="2030" y="248" width="671" height="608" key="find.popup" timestamp="1606783002275">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="126" y="197" width="727" height="550" key="find.popup/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606694877473" />
+    <state x="2030" y="248" width="671" height="608" key="find.popup/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606783002275" />
+    <state x="222" y="27" width="763" height="741" key="new project wizard" timestamp="1606692271176">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="222" y="27" width="763" height="741" key="new project wizard/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606692271176" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606691955166">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606691955166" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/config/GlobalExceptionHandler.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/config/GlobalExceptionHandler.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
