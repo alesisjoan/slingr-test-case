@@ -4,6 +4,7 @@ import com.github.alesisjoan.slingr.services.AppService;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,6 +23,7 @@ public class AppController {
     @RequestMapping(value = "/health",
             produces = { "application/json" },
             method = RequestMethod.GET)
+    @CrossOrigin(origins = "*")
     ResponseEntity<String> appHealthGet() {
         return ResponseEntity.ok("");
     }
@@ -34,6 +36,7 @@ public class AppController {
     @RequestMapping(value = "/last",
             produces = { "application/json" },
             method = RequestMethod.GET)
+    @CrossOrigin(origins = "*")
     ResponseEntity<String> appLastGet() {
         return ResponseEntity.ok(appService.getLastExpressions());
     }

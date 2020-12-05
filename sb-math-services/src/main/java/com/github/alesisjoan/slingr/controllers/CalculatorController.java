@@ -11,11 +11,15 @@ import io.swagger.annotations.ApiResponses;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.CacheControl;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 public class CalculatorController {
@@ -24,7 +28,8 @@ public class CalculatorController {
             .getLogger(CalculatorController.class);
     
     private static final Integer DEFAULT_DIGITS = 0;
-    
+    public static final String REACT_FRONTEND = "http://localhost:3000";
+
     @Autowired
     Calculator calculator;
 
@@ -34,6 +39,7 @@ public class CalculatorController {
             @ApiResponse(code = 200, message = "OK"),
             @ApiResponse(code = 400, message = "Invalid input"),
             @ApiResponse(code = 500, message = "Internal error / Math exception") })
+    @CrossOrigin(origins = "*")
     @RequestMapping(value = "/expressions", method = RequestMethod.GET)
     ResponseEntity<String> expressionsGet(@NotNull @ApiParam(value = "Expression to be evaluated", required = true) 
                                         @Valid @RequestParam(value = "expression", required = true) String expression,
@@ -43,8 +49,11 @@ public class CalculatorController {
         if(digits < 1 ){
             digits = DEFAULT_DIGITS;
         }                                    
-        String result = calculator.calculate(expression, digits);                                            
-        return ResponseEntity.ok(result);                                        
+        String result = calculator.calculate(expression, digits);
+
+        HttpHeaders responseHeaders = new HttpHeaders();
+        responseHeaders.set("Cache-Control", "max-age=0");
+        return new ResponseEntity<>(result, responseHeaders, HttpStatus.OK);                                       
     }
 
 
@@ -57,6 +66,7 @@ public class CalculatorController {
             produces = { "application/json" },
             consumes = { "application/json" },
             method = RequestMethod.POST)
+    @CrossOrigin(origins = "*")
     ResponseEntity<String> expressionsPost(@ApiParam(value = "Expression Object" ,required=true )  @Valid @RequestBody MathExpression body) {
 
         String result = calculator.calculate(body.getExpression(), body.getDigits() < 1 ? DEFAULT_DIGITS : body.getDigits());
