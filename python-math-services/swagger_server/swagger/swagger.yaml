@@ -1,0 +1,133 @@
+---
+swagger: "2.0"
+info:
+  description: "Math web services. The requirement is to build a public RESTful API\
+    \ that allows to solve math expressions. So given a math expression a number is\
+    \ returned as response."
+  version: "8.0.0"
+  title: "Math Web Services"
+  termsOfService: ""
+  contact:
+    email: "alesis4ta@gmail.com"
+host: "localhost:8091"
+basePath: "/"
+tags:
+- name: "expressions"
+  description: "Calculate expressions"
+schemes:
+- "http"
+paths:
+  /expressions:
+    get:
+      tags:
+      - "expressions"
+      summary: "calculate expression"
+      description: ""
+      operationId: "expressions_get"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "expression"
+        in: "query"
+        description: "Expression to be evaluated"
+        required: true
+        type: "string"
+      - name: "digits"
+        in: "query"
+        description: "number of significant digits in formatted output. It is optional."
+        required: false
+        type: "number"
+      responses:
+        "200":
+          description: "OK"
+        "400":
+          description: "Invalid input"
+        "500":
+          description: "Internal error / Math exception"
+      x-swagger-router-controller: "swagger_server.controllers.expressions_controller"
+    post:
+      tags:
+      - "expressions"
+      summary: "calculate expression"
+      description: ""
+      operationId: "expressions_post"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Expression Object"
+        required: true
+        schema:
+          $ref: "#/definitions/MathExpression"
+      responses:
+        "200":
+          description: "OK"
+        "400":
+          description: "Invalid input"
+        "500":
+          description: "Internal error / Math exception"
+      x-swagger-router-controller: "swagger_server.controllers.expressions_controller"
+  /app/health:
+    get:
+      tags:
+      - "info"
+      summary: "shows app info"
+      description: ""
+      operationId: "app_health_get"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        "200":
+          description: "OK"
+        "500":
+          description: "Internal error"
+      x-swagger-router-controller: "swagger_server.controllers.info_controller"
+  /app/top:
+    get:
+      tags:
+      - "info"
+      summary: "shows top most requested expressions"
+      description: ""
+      operationId: "app_top_get"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        "200":
+          description: "OK"
+        "500":
+          description: "Internal error"
+      x-swagger-router-controller: "swagger_server.controllers.info_controller"
+  /app/last:
+    get:
+      tags:
+      - "info"
+      summary: "shows last (n) requested expressions"
+      description: ""
+      operationId: "app_last_get"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        "200":
+          description: "OK"
+        "500":
+          description: "Internal error"
+      x-swagger-router-controller: "swagger_server.controllers.info_controller"
+definitions:
+  MathExpression:
+    type: "object"
+    properties:
+      expression:
+        type: "string"
+      digits:
+        type: "integer"
+    example:
+      expression: "expression"
+      digits: 0
