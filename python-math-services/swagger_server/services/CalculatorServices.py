@@ -7,29 +7,32 @@ import os
 
 logging.getLogger('connexion.operation').setLevel('ERROR')
 
-cache_url_expressions = (os.environ.get("CACHE_HOST") or "http://localhost:8092") + "/expressions"
+cache_url_expressions = (os.environ.get("CACHE_HOST") or "https://redislite.herokuapp.com") + "/expressions"
 
 
 class Calculator(object):
 
     def calculate(self, expression, digits=0):
-        if 'sqrt' in expression:
-            expression = expression.replace('sqrt', 'math.sqrt')
         evaluated = None
         evaluated_cache = None
         try:
             evaluated_cache = self.get_cached_result(expression)
             ns = {'__builtins__': None}
-            evaluated = evaluated_cache or eval(expression, ns)
+            if evaluated_cache is None or evaluated_cache == '':
+                if 'sqrt' in expression:
+                    expression = expression.replace('sqrt', 'math.sqrt')
+                evaluated = eval(expression, ns)
+            else:
+                evaluated = evaluated_cache
         except Exception as e:
-            logging.error("Error while creating expression, please check the expression", e)
+            logging.error(e)
             error = Error(400, "Error while creating expression, please check the expression")
             return error.to_dict(), 400
         if evaluated and not evaluated_cache:
             self.push_last_result(expression, evaluated)
         if digits > 0:
             s_digits = '%.' + str(int(digits)) + 'g'
-            return '%s' % float(s_digits % evaluated)
+            return '%s' % float(s_digits % float(evaluated))
         else:
             return evaluated
 
@@ -39,7 +42,8 @@ class Calculator(object):
         try:
             result = requests.request("GET", cache_url_expressions + "?expression=" + requote_uri(expression))
         except Exception as e:
-            logging.warning("Error pushing to cache services", e)
+            logging.warning("Error pushing to cache services")
+            logging.warning(e)
         return result.text
 
     def push_last_result(self, expression, result):
