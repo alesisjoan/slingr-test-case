@@ -2,8 +2,8 @@ const API_SPRINGBOOT_ENDPOINT_GET =
   "http://localhost:8095/expressions?expression=";
 const API_SPRINGBOOT_ENDPOINT_POST = "http://localhost:8090/expressions";
 
-const API_PYTHON_ENDPOINT_GET = "http://localhost:8091/expressions?expression=";
-const API_PYTHON_ENDPOINT_POST = "http://localhost:8091/expressions";
+const API_PYTHON_ENDPOINT_GET = "https://python-math-services.herokuapp.com/expressions";
+const API_PYTHON_ENDPOINT_POST = "https://python-math-services.herokuapp.com/expressions";
 
 const PythonPOST = (expression, digits, callbackResult, callbackError) => {
   fetch(`${API_PYTHON_ENDPOINT_POST}`, {

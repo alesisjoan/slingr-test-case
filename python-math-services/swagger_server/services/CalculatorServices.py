@@ -7,7 +7,7 @@ import os
 
 logging.getLogger('connexion.operation').setLevel('ERROR')
 
-cache_url_expressions = (os.environ.get("CACHE_HOST", 8091) or "http://localhost:8092") + "/expressions"
+cache_url_expressions = (os.environ.get("CACHE_HOST") or "http://localhost:8092") + "/expressions"
 
 
 class Calculator(object):
