@@ -10,8 +10,8 @@ com/github/alesisjoan/slingr/controllers/AppController.java
  com.github.alesisjoan.slingr.controllers.AppController
 com/github/alesisjoan/slingr/util/MathExpressionValidator.java
  com.github.alesisjoan.slingr.util.MathExpressionValidator
-com/github/alesisjoan/slingr/SpringWebApplication.java
- com.github.alesisjoan.slingr.SpringWebApplication
+com/github/alesisjoan/slingr/domain/MathResult.java
+ com.github.alesisjoan.slingr.domain.MathResult
 com/github/alesisjoan/slingr/services/AppServiceImpl.java
  com.github.alesisjoan.slingr.services.AppServiceImpl
 com/github/alesisjoan/slingr/config/GlobalExceptionHandler.java
@@ -31,5 +31,5 @@ com/github/alesisjoan/slingr/config/MathException.java
  com.github.alesisjoan.slingr.config.MathException
 com/github/alesisjoan/slingr/services/AppService.java
  com.github.alesisjoan.slingr.services.AppService
-com/github/alesisjoan/slingr/domain/MathResult.java
- com.github.alesisjoan.slingr.domain.MathResult
+com/github/alesisjoan/slingr/SpringWebApplication.java
+ com.github.alesisjoan.slingr.SpringWebApplication

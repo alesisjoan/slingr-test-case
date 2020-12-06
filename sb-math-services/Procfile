@@ -1,0 +1,2 @@
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar "sb-math-services-8.0.1-SNAPSHOT.jar"  -Dspring.profiles
+.active=stage

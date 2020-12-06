@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import connexion
 from flask_cors import CORS
 
@@ -12,7 +13,7 @@ def main():
     app.add_api('swagger.yaml', arguments={'title': 'Math Web Services'})
 
     CORS(app.app)
-    app.run(port=8091)
+    app.run(port=os.environ.get("PORT", 8091))
 
 
 if __name__ == '__main__':

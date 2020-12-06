@@ -23,45 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3038d830-d38a-4201-9abc-f762e5808736" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python-math-services/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.idea/python-math-services.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.swagger-codegen-ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.swagger-codegen/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/git_push.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/controllers/expressions_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/controllers/info_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/models/base_model_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/models/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/models/math_expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/services/CalculatorServices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/swagger/swagger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/test/test_expressions_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/test/test_info_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/swagger_server/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/test-requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-math-services/tox.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-math-services/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-math-expresions-ui/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-math-expresions-ui/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-math-expresions-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-math-expresions-ui/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-math-expresions-ui/src/MathServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-math-expresions-ui/src/MathServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-math-services/swagger_server/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/swagger_server/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/SpringWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/SpringWebApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607129302387</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implement python BE from swagger file closes #15">
+      <created>1607204893756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607204893756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,17 +257,23 @@
     <MESSAGE value="implemented cache service, app service, math result for getting last 10 expressions. closes #8" />
     <MESSAGE value="react front end, closes #9" />
     <MESSAGE value="allow cross origin for FE #9" />
-    <option name="LAST_COMMIT_MESSAGE" value="allow cross origin for FE #9" />
+    <MESSAGE value="implement python BE from swagger file closes #15" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement python BE from swagger file closes #15" />
   </component>
   <component name="WindowStateProjectService">
     <state x="97" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1606692272347">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="97" y="27" width="1024" height="741" key="#Project_Structure/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606692272347" />
-    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607036835942">
-      <screen x="51" y="27" width="1315" height="741" />
+    <state x="2088" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607207052436">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607036835942" />
+    <state x="2088" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607207052436" />
+    <state x="2468" y="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607206408710">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2468" y="406" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607206408710" />
     <state x="2599" y="111" width="583" height="593" key="#com.intellij.ide.util.MemberChooser" timestamp="1606783660800">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -315,53 +305,53 @@
     </state>
     <state x="198" y="240" width="416" height="340" key="FileChooserDialogImpl/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607033498935" />
     <state x="2134" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606612701461" />
-    <state width="1269" height="401" key="GridCell.Tab.0.bottom" timestamp="1607129600302">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.0.bottom" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682417" />
-    <state width="1823" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215540" />
+    <state width="1269" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.0.center" timestamp="1607129600302">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.0.center" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
-    <state width="1823" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215540" />
+    <state width="1269" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.0.left" timestamp="1607129600301">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.0.left" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
-    <state width="1823" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215540" />
+    <state width="1269" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600301" />
-    <state width="1269" height="401" key="GridCell.Tab.0.right" timestamp="1607129600302">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.0.right" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
-    <state width="1823" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215646" />
+    <state width="1269" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.bottom" timestamp="1607129600302">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.1.bottom" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1823" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215541" />
+    <state width="1269" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.center" timestamp="1607129600302">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.1.center" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1823" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215541" />
+    <state width="1269" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.left" timestamp="1607129600302">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.1.left" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1823" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215541" />
+    <state width="1269" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.right" timestamp="1607129600302">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1269" height="401" key="GridCell.Tab.1.right" timestamp="1607215313486">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1823" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129215541" />
+    <state width="1269" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
     <state width="1269" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
     <state x="1019" y="164" width="901" height="527" key="IDE.errors.dialog" timestamp="1606614164796">
       <screen x="51" y="27" width="1869" height="1053" />
@@ -371,11 +361,11 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="191" y="27" width="1024" height="741" key="SettingsEditor/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606692404210" />
-    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2" timestamp="1607129342131">
+    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2" timestamp="1607204894959">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="303" y="118" width="800" height="557" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606700154219" />
-    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607129342131" />
+    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607204894959" />
     <state width="960" height="541" key="XDebugger.FullValuePopup" timestamp="1606784255375">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
