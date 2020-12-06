@@ -19,7 +19,8 @@ class Calculator(object):
         evaluated_cache = None
         try:
             evaluated_cache = self.get_cached_result(expression)
-            evaluated = evaluated_cache or eval(expression)
+            ns = {'__builtins__': None}
+            evaluated = evaluated_cache or eval(expression, ns)
         except Exception as e:
             logging.error("Error while creating expression, please check the expression", e)
             error = Error(400, "Error while creating expression, please check the expression")
