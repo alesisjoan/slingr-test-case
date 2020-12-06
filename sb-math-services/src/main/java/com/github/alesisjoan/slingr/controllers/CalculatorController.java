@@ -1,8 +1,6 @@
 package com.github.alesisjoan.slingr.controllers;
 
-import com.github.alesisjoan.slingr.config.BadRequest;
 import com.github.alesisjoan.slingr.domain.MathExpression;
-import com.github.alesisjoan.slingr.services.AppService;
 import com.github.alesisjoan.slingr.services.Calculator;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -11,7 +9,6 @@ import io.swagger.annotations.ApiResponses;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.CacheControl;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +16,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
-import java.util.concurrent.TimeUnit;
 
 @RestController
 public class CalculatorController {
@@ -28,7 +24,6 @@ public class CalculatorController {
             .getLogger(CalculatorController.class);
     
     private static final Integer DEFAULT_DIGITS = 0;
-    public static final String REACT_FRONTEND = "http://localhost:3000";
 
     @Autowired
     Calculator calculator;

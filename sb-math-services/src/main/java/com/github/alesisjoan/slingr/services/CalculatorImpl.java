@@ -35,15 +35,27 @@ public class CalculatorImpl implements Calculator{
             log.error(e.getMessage());
             throw new BadRequest("Error while creating expression, please check the expression");
         }
-        double result = expression1.evaluate();
-       
-        String evaluated = setSignificanDigits(result, digits);
+        String resultCached =  cacheService.pullResult(mathExpression);
+        double result;
+        if(resultCached!=null){
+            result = Double.parseDouble(resultCached);
+        }else{
+            try{
+                result = expression1.evaluate();
+            }catch (Exception e){
+                log.error(e.getMessage());
+                throw new BadRequest("Error while evaluating expression, please check the expression");
+            }
+        }
+            
+        String evaluated = setSignificantDigits(result, digits);
         log.debug("Result: "+evaluated);
-        cacheService.pushLastExpression(new MathResult(mathExpression, evaluated));
+        MathResult mathResult = new MathResult(mathExpression, evaluated);
+        cacheService.pushResult(mathResult);
         return evaluated;
     }
     
-    private static String setSignificanDigits(double value, int significantDigits) {
+    private static String setSignificantDigits(double value, int significantDigits) {
         if (significantDigits < 0) throw new IllegalArgumentException();
 
         // this is more precise than simply doing "new BigDecimal(value);"

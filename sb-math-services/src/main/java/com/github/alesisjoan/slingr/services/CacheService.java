@@ -7,11 +7,7 @@ import java.util.ArrayDeque;
 
 public interface CacheService {
     
-    void pushLastExpression(MathResult mathResult);
-
-    ArrayDeque<MathResult> pullLastExpressions();
-    
-    MathResult pullResult(MathExpression mathExpression);
-
     void pushResult(MathResult mathResult);
+    
+    String pullResult(MathExpression expression);
 }

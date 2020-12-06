@@ -22,7 +22,7 @@ public class MathExpression {
 
   @PositiveOrZero
   @JsonProperty("digits")
-  private Integer digits = null;
+  private Integer digits = 0;
 
   public MathExpression(String expression, Integer digits) {
     this.expression = expression;

@@ -23,10 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3038d830-d38a-4201-9abc-f762e5808736" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sb-math-services/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/src/main/java/com/github/alesisjoan/slingr/SpringWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/src/main/java/com/github/alesisjoan/slingr/controllers/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/src/main/java/com/github/alesisjoan/slingr/controllers/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/src/main/java/com/github/alesisjoan/slingr/domain/KeyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/src/main/java/com/github/alesisjoan/slingr/services/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/src/main/java/com/github/alesisjoan/slingr/services/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redislite-services/swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/domain/KeyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-math-services/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-math-services/swagger_server/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/swagger_server/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-math-services/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-math-services/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-math-services/swagger_server/controllers/info_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/swagger_server/controllers/info_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-math-services/swagger_server/services/CalculatorServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/swagger_server/services/CalculatorServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-math-services/swagger_server/swagger/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/swagger_server/swagger/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-math-services/swagger_server/test/test_info_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-math-services/swagger_server/test/test_info_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-math-expresions-ui/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-math-expresions-ui/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-math-expresions-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-math-expresions-ui/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-math-expresions-ui/src/MathServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-math-expresions-ui/src/MathServices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/6.6.1/fileContent/fileContent.lock" afterDir="false" />
@@ -36,9 +58,16 @@
       <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sb-math-services/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-math-services/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sb-math-services/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/SpringWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/SpringWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/controllers/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/domain/MathExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/domain/MathExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/AppService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/AppServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/CacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/CacheServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-math-services/src/main/java/com/github/alesisjoan/slingr/services/CalculatorImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +75,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/redislite-services">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sb-math-services">
       <ProjectState />
     </projectState>
@@ -100,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redislite-services" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1634062" />
@@ -117,6 +149,7 @@
       <recent name="com.github.alesisjoan.slingr.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/redislite-services" />
       <recent name="$PROJECT_DIR$/sb-math-services" />
       <recent name="$PROJECT_DIR$/sb-rest-calculator" />
       <recent name="$PROJECT_DIR$/sb-rest-calculator/src/main/java/com/github/alesisjoan/slingr/config" />
@@ -124,9 +157,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.sb-math-services">
-    <configuration name="SpringWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CacheService" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.alesisjoan.slingr.SpringWebApplication" />
-      <module name="sb-rest-calculator.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.alesisjoan.slingr.*" />
@@ -154,11 +186,33 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="redislite-services" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="SERVER_PORT" value="8092" />
+          </map>
+        </option>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/redislite-services" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="clean bootRun --info " />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="sb-math-services" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="env">
           <map>
-            <entry key="SERVER_PORT" value="8090" />
+            <entry key="SERVER_PORT" value="8095" />
           </map>
         </option>
         <option name="executionName" />
@@ -177,12 +231,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SpringWebApplication" />
+      <item itemvalue="Application.CacheService" />
+      <item itemvalue="Gradle.redislite-services" />
       <item itemvalue="Gradle.sb-math-services" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringWebApplication" />
+        <item itemvalue="Application.CacheService" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607204893756</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="heroku deploys closes #18">
+      <created>1607216630355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607216630355</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,27 +320,28 @@
     <MESSAGE value="react front end, closes #9" />
     <MESSAGE value="allow cross origin for FE #9" />
     <MESSAGE value="implement python BE from swagger file closes #15" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement python BE from swagger file closes #15" />
+    <MESSAGE value="heroku deploys closes #18" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku deploys closes #18" />
   </component>
   <component name="WindowStateProjectService">
     <state x="97" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1606692272347">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="97" y="27" width="1024" height="741" key="#Project_Structure/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606692272347" />
-    <state x="2088" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607207052436">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="836" y="251" width="1084" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607285665990">
+      <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607036835942" />
-    <state x="2088" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607207052436" />
+    <state x="836" y="251" width="1084" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607285665990" />
     <state x="2468" y="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607206408710">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2468" y="406" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607206408710" />
-    <state x="2599" y="111" width="583" height="593" key="#com.intellij.ide.util.MemberChooser" timestamp="1606783660800">
+    <state x="2599" y="111" width="593" height="593" key="#com.intellij.ide.util.MemberChooser" timestamp="1607285057289">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="516" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606699474090" />
-    <state x="2599" y="111" width="583" height="593" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606783660800" />
+    <state x="2599" y="111" width="593" height="593" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607285057289" />
     <state x="2061" y="143" width="560" height="819" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606783185301">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -287,71 +350,75 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2084" y="301" width="524" height="503" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606782244181" />
-    <state x="427" y="312" width="877" height="513" key="#xdebugger.evaluate" timestamp="1606784006046">
+    <state x="105" y="452" width="1261" height="513" key="#xdebugger.evaluate" timestamp="1607285740368">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="208" y="179" width="1022" height="513" key="#xdebugger.evaluate/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606693961642" />
-    <state x="427" y="312" width="877" height="513" key="#xdebugger.evaluate/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606784006046" />
-    <state width="689" height="526" key="DebuggerActiveHint" timestamp="1606783963925">
+    <state x="105" y="452" width="1261" height="513" key="#xdebugger.evaluate/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607285740368" />
+    <state width="739" height="526" key="DebuggerActiveHint" timestamp="1607282686743">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="689" height="526" key="DebuggerActiveHint/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606783963925" />
+    <state width="739" height="526" key="DebuggerActiveHint/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607282686743" />
     <state x="1517" y="125" width="1669" height="855" key="DiffContextDialog" timestamp="1607129573230">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1517" y="125" width="1669" height="855" key="DiffContextDialog/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129573229" />
+    <state x="1920" y="336" width="320" height="541" key="EnvironmentVariablesDialog" timestamp="1607281021327">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1920" y="336" width="320" height="541" key="EnvironmentVariablesDialog/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607281021327" />
     <state x="198" y="240" width="416" height="340" key="FileChooserDialogImpl" timestamp="1607033498935">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="198" y="240" width="416" height="340" key="FileChooserDialogImpl/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607033498935" />
     <state x="2134" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606612701461" />
-    <state width="1269" height="401" key="GridCell.Tab.0.bottom" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.0.bottom" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682417" />
-    <state width="1269" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.0.bottom/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.0.center" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.0.center" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
-    <state width="1269" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.0.center/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.0.left" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.0.left" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
-    <state width="1269" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.0.left/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600301" />
-    <state width="1269" height="401" key="GridCell.Tab.0.right" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.0.right" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682416" />
-    <state width="1269" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.0.right/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.bottom" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.1.bottom" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1269" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.1.bottom/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.center" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.1.center" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1269" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.1.center/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.left" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.1.left" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1269" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.1.left/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
-    <state width="1269" height="401" key="GridCell.Tab.1.right" timestamp="1607215313486">
+    <state width="1823" height="386" key="GridCell.Tab.1.right" timestamp="1607286484830">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1269" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1607055682287" />
-    <state width="1269" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607215313486" />
+    <state width="1823" height="386" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607286484830" />
     <state width="1269" height="401" key="GridCell.Tab.1.right/1920.0.1920.1080/51.27.1869.1053@51.27.1869.1053" timestamp="1607129600302" />
     <state x="1019" y="164" width="901" height="527" key="IDE.errors.dialog" timestamp="1606614164796">
       <screen x="51" y="27" width="1869" height="1053" />
@@ -361,21 +428,21 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="191" y="27" width="1024" height="741" key="SettingsEditor/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606692404210" />
-    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2" timestamp="1607204894959">
+    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2" timestamp="1607216631819">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="303" y="118" width="800" height="557" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606700154219" />
-    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607204894959" />
+    <state x="1926" y="210" width="800" height="649" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607216631819" />
     <state width="960" height="541" key="XDebugger.FullValuePopup" timestamp="1606784255375">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="657" height="371" key="XDebugger.FullValuePopup/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606699877029" />
     <state width="960" height="541" key="XDebugger.FullValuePopup/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606784255375" />
-    <state x="2030" y="248" width="671" height="608" key="find.popup" timestamp="1606783002275">
+    <state x="2030" y="248" width="689" height="608" key="find.popup" timestamp="1607279730191">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="126" y="197" width="727" height="550" key="find.popup/1920.0.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1606694877473" />
-    <state x="2030" y="248" width="671" height="608" key="find.popup/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1606783002275" />
+    <state x="2030" y="248" width="689" height="608" key="find.popup/1920.0.1920.1080/51.27.1869.1053@1920.0.1920.1080" timestamp="1607279730191" />
     <state x="222" y="27" width="763" height="741" key="new project wizard" timestamp="1606692271176">
       <screen x="51" y="27" width="1315" height="741" />
     </state>

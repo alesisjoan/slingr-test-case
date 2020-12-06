@@ -88,38 +88,6 @@ paths:
         "500":
           description: "Internal error"
       x-swagger-router-controller: "swagger_server.controllers.info_controller"
-  /app/top:
-    get:
-      tags:
-      - "info"
-      summary: "shows top most requested expressions"
-      description: ""
-      operationId: "app_top_get"
-      produces:
-      - "application/json"
-      parameters: []
-      responses:
-        "200":
-          description: "OK"
-        "500":
-          description: "Internal error"
-      x-swagger-router-controller: "swagger_server.controllers.info_controller"
-  /app/last:
-    get:
-      tags:
-      - "info"
-      summary: "shows last (n) requested expressions"
-      description: ""
-      operationId: "app_last_get"
-      produces:
-      - "application/json"
-      parameters: []
-      responses:
-        "200":
-          description: "OK"
-        "500":
-          description: "Internal error"
-      x-swagger-router-controller: "swagger_server.controllers.info_controller"
 definitions:
   MathExpression:
     type: "object"

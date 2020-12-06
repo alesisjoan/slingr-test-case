@@ -1,0 +1,119 @@
+swagger: "2.0"
+info:
+  description: "Math web services. The requirement is to build a public RESTful API that allows to solve math expressions. So given a math expression a number is returned as response."
+  version: "8.0.0"
+  title: "Math Web Services"
+  termsOfService: ""
+  contact:
+    email: "alesis4ta@gmail.com"
+    #license:
+    # name: "Apache 2.0"
+    #url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "heroku"
+basePath: "/math-web-services"
+tags:
+  - name: "expressions"
+    description: "Calculate expressions"
+schemes:
+  - "https"
+  - "http"
+paths:
+  /expressions:
+    get:
+      tags:
+        - "expressions"
+      summary: "calculate expression"
+      description: ""
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "expression"
+          type: "string"
+          in: "query"
+          description: "Expression to be evaluated"
+          required: true
+        - name: "digits"
+          type: "number"
+          in: "query"
+          description: "number of significant digits in formatted output. It is optional."
+          required: false
+      responses:
+        "400":
+          description: "Invalid input"
+        "500":
+          description: "Internal error / Math exception"
+        "200":
+          description: "OK"
+    post:
+      tags:
+        - "expressions"
+      summary: "calculate expression"
+      description: ""
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "body"
+          description: "Expression Object"
+          required: true
+          schema:
+            $ref: "#/definitions/MathExpression"
+      responses:
+        "400":
+          description: "Invalid input"
+        "500":
+          description: "Internal error / Math exception"
+        "200":
+          description: "OK"
+  /app/health:
+    get:
+      tags:
+        - "info"
+      summary: "shows app info"
+      description: ""
+      produces:
+        - "application/json"
+      responses:
+        "500":
+          description: "Internal error"
+        "200":
+          description: "OK"
+  /app/top:
+    get:
+      tags:
+        - "info"
+      summary: "shows top most requested expressions"
+      description: ""
+      produces:
+        - "application/json"
+      responses:
+        "500":
+          description: "Internal error"
+        "200":
+          description: "OK"
+  /app/last:
+    get:
+      tags:
+        - "info"
+      summary: "shows last (n) requested expressions"
+      description: ""
+      produces:
+        - "application/json"
+      responses:
+        "500":
+          description: "Internal error"
+        "200":
+          description: "OK"
+
+definitions:
+  MathExpression:
+    type: "object"
+    properties:
+      expression:
+        type: "string"
+      digits:
+        type: "integer"

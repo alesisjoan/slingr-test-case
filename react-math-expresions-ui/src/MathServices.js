@@ -1,5 +1,5 @@
 const API_SPRINGBOOT_ENDPOINT_GET =
-  "http://localhost:8090/expressions?expression=";
+  "http://localhost:8095/expressions?expression=";
 const API_SPRINGBOOT_ENDPOINT_POST = "http://localhost:8090/expressions";
 
 const API_PYTHON_ENDPOINT_GET = "http://localhost:8091/expressions?expression=";
@@ -14,7 +14,7 @@ const PythonPOST = (expression, digits, callbackResult, callbackError) => {
     },
     body: JSON.stringify({
       expression: expression,
-      digits: digits,
+      digits: parseInt(digits),
     }),
   })
     .then((response) => response.json())

@@ -1,0 +1,4 @@
+cache:
+  host: 'http://localhost:8092'
+  url:
+    expressions: ${cache.host}/expressions

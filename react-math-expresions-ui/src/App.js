@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import getCalculateAPI from "./MathServices";
 
-const LAST_EXPRESSIONS = "http://localhost:8090/app/last";
+const LAST_EXPRESSIONS = "http://localhost:8092/expressions/last";
 
 const App = () => {
   const [mathExpression, setMathExpression] = React.useState("");
@@ -15,11 +15,9 @@ const App = () => {
   const [lastExpressions, setLastExpressions] = React.useState("");
 
   const calculate = () => {
+    setMessage("");
     let callback = getCalculateAPI(toggleAPI, toggleMethod);
     callback(mathExpression, digits, setMathResult, setMessage);
-    //console.log(result);
-    //setMathResult(result);
-    //setMathResult(callback(mathExpression));
   };
 
   const reset = () => {
@@ -107,9 +105,9 @@ const App = () => {
 
 const LastExpressionsComponent = ({ lastExpressions, setLastExpressions }) => {
   fetch(LAST_EXPRESSIONS)
-    .then((response) => response.text())
+    .then((response) => response.json())
     .then((responseJson) => {
-      setLastExpressions(responseJson);
+      setLastExpressions(responseJson.join('\n'));
     });
   return (
     <pre

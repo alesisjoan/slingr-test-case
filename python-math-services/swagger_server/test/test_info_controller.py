@@ -33,16 +33,6 @@ class TestInfoController(BaseTestCase):
         self.assert200(response,
                        'Response body is : ' + response.data.decode('utf-8'))
 
-    def test_app_top_get(self):
-        """Test case for app_top_get
-
-        shows top most requested expressions
-        """
-        response = self.client.open(
-            '//app/top',
-            method='GET')
-        self.assert200(response,
-                       'Response body is : ' + response.data.decode('utf-8'))
 
 
 if __name__ == '__main__':
