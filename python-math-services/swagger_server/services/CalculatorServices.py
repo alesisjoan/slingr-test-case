@@ -8,6 +8,7 @@ import os
 logging.getLogger('connexion.operation').setLevel('ERROR')
 
 cache_url_expressions = (os.environ.get("CACHE_HOST") or "https://redislite.herokuapp.com") + "/expressions"
+evil_words = ['os', 'import', 'for', 'class', '__']
 
 
 class Calculator(object):
@@ -15,13 +16,15 @@ class Calculator(object):
     def calculate(self, expression, digits=0):
         evaluated = None
         evaluated_cache = None
+        if any(expression in s for s in evil_words):
+            error = Error(400, "Error while creating expression, please check the expression")
+            return error.to_dict(), 400
         try:
             evaluated_cache = self.get_cached_result(expression)
-            ns = {'__builtins__': None}
             if evaluated_cache is None or evaluated_cache == '':
                 if 'sqrt' in expression:
                     expression = expression.replace('sqrt', 'math.sqrt')
-                evaluated = eval(expression, ns)
+                evaluated = eval(expression)
             else:
                 evaluated = evaluated_cache
         except Exception as e:

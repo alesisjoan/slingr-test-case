@@ -1,4 +1,4 @@
 cache:
-  host: 'http://localhost:8092'
+  host: 'https://redislite.herokuapp.com'
   url:
     expressions: ${cache.host}/expressions
